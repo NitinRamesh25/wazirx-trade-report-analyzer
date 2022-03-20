@@ -1,0 +1,12 @@
+<div id="file-uploader">
+
+  <label for="file-upload">Upload Wazirx trade report file</label>
+  <input id="file-upload" type="file" (change)="onFileChanged($event)"/>
+
+</div>
+
+<div *ngIf="doneParsingReport">
+  Realized Profit/Loss: Rs {{realizedProfitLoss}}
+  <br>
+  Total Fee paid: Rs {{totalFees}}
+</div>
