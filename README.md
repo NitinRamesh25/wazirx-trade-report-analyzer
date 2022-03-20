@@ -1,7 +1,7 @@
 ## Notes
 
 - Inorder to read complete file, 
-    - go to the 'Account Ledger' sheet.
+    - Go to the 'Exchange Trades' sheet.
     - View -> Unselect 'Freeze rows and columns'
 
 ## TODO
